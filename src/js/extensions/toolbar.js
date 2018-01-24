@@ -220,7 +220,7 @@
 
         attachEventHandlers: function () {
             // MediumEditor custom events for when user beings and ends interaction with a contenteditable and its elements
-            this.subscribe('blur', this.handleBlur.bind(this));
+            // this.subscribe('blur', this.handleBlur.bind(this));
             this.subscribe('focus', this.handleFocus.bind(this));
 
             // Updating the state of the toolbar as things change
